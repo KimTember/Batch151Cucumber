@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808b28cb-fdc3-4662-954d-ed7fa1e07a46" name="Changes" comment="03082023" />
+    <list default="true" id="808b28cb-fdc3-4662-954d-ed7fa1e07a46" name="Changes" comment="03082023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/BlueRentalStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US001_DataTableTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US002_DataTableTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US003_DataTableTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/GoogleStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,15 +60,15 @@
       <recent name="techproed.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US004_ScenarioOutlineClassWork">
-    <configuration name="Feature: US001_Techproed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: US003_DataTableTest">
+    <configuration name="Feature: US001_DataTableTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US001_DataTableTest.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US001_Techproed" />
+      <option name="SUGGESTED_NAME" value="Feature: US001_DataTableTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,14 +80,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US001_techproed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US002_DataTableTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day31_RunnerKullanimi/US001_techproed.feature" />
-      <option name="GLUE" value="techproed.stepdefinition" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US002_DataTableTest.feature" />
+      <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US001_techproed" />
+      <option name="SUGGESTED_NAME" value="Feature: US002_DataTableTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +99,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US002_ScenarioOutlineKullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US003_DataTableTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US003_DataTableTest.feature" />
+      <option name="GLUE" value="techproed.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Batch151Cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US003_DataTableTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC01 Arama Kutusunda Volvo Aratilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US002_ScenarioOutlineKullanimi.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US002_ScenarioOutlineKullanimi" />
+      <option name="NAME_FILTER" value="^TC01 Arama Kutusunda Volvo Aratilir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Arama Kutusunda Volvo Aratilir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 Arama Kutusunda Volvo Aratilir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -107,33 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US003_ScenarioOutlinePropertiesKullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC02 Arama Kutusunda Ford Aratilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US003_ScenarioOutlinePropertiesKullanimi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US_001_PropertiesKullanimi.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US003_ScenarioOutlinePropertiesKullanimi" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: US004_ScenarioOutlineClassWork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US004_ScenarioOutlineClassWork.feature" />
-      <option name="GLUE" value="techproed.stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Batch151Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US004_ScenarioOutlineClassWork" />
+      <option name="NAME_FILTER" value="^TC02 Arama Kutusunda Ford Aratilir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02 Arama Kutusunda Ford Aratilir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC02 Arama Kutusunda Ford Aratilir" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: US004_ScenarioOutlineClassWork" />
-        <item itemvalue="Cucumber Java.Feature: US003_ScenarioOutlinePropertiesKullanimi" />
-        <item itemvalue="Cucumber Java.Feature: US002_ScenarioOutlineKullanimi" />
-        <item itemvalue="Cucumber Java.Feature: US001_Techproed" />
-        <item itemvalue="Cucumber Java.Feature: US001_techproed" />
+        <item itemvalue="Cucumber Java.Feature: US003_DataTableTest" />
+        <item itemvalue="Cucumber Java.Feature: US002_DataTableTest" />
+        <item itemvalue="Cucumber Java.Feature: US001_DataTableTest" />
+        <item itemvalue="Cucumber Java.Scenario: TC01 Arama Kutusunda Volvo Aratilir" />
+        <item itemvalue="Cucumber Java.Scenario: TC02 Arama Kutusunda Ford Aratilir" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691084293232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="03082023">
+      <created>1691084343329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691084343329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

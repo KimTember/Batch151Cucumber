@@ -1,5 +1,7 @@
+
 Feature: US001 TechproEducation Arama Testi
-  Scenario: TC01 Arama Kutusunda Bolum Aratma
+ @g
+ Scenario: TC01 Arama Kutusunda Bolum Aratma
     Given kullanici techproEducation sayfasina gider
     Then arama kutusunda qa aratir
     And sayfayi kapatir

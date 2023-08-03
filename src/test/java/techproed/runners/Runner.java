@@ -5,10 +5,15 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)//-->Scenario çalıştırıcı notasyonu.Cucumber ile junit entegrasonunu sağlar
-@CucumberOptions(features = "src/test/resources/features",
+@CucumberOptions(plugin={"pretty",
+        "html:target/default-cucumber-reports.html",
+        "json:target/json-reports/cucumber.json",
+        "junit:target/xml-report/cucumber.xml"},
+        features = "src/test/resources/features",
         glue = {"techproed/stepDefinition"},
-        tags = "@erol",
-        dryRun = false//-->true seçersek scenarioları kontrol eder browser'ı çalıştırmaz
+        tags = "@g",
+        dryRun = false,//-->true seçersek scenarioları kontrol eder browser'ı çalıştırmaz
+        monochrome = true//-->true kullanırsak konsoldaki çıktılar tek renk olur.
 
 )
 /*
@@ -19,6 +24,13 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions() notasyonu scenarioların nerede ve nasıl çalışacağı, hangi raporu kullanacağı ile alakalı
 seçenekleri bu notasyonda belirtiriz
+
+ @CucumberOptions() notasyonu içerisine plugin parametresi ile yukarıdaki gibi almak istediğimiz rapor çeşidini
+seçip ekliyoruz.
+@CucumberOptions() notasy_nu icerisinde plugin parametresi ile yukaridaki gibi almak istedigimiz
+rapor cesidini secip ekliyoruz.
+
+pretty-->konsolda calistirdigimiz scenario ile ilgili ayrintili bilgi verir.
  */
 
 
