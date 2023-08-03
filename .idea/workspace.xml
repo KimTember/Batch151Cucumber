@@ -4,34 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808b28cb-fdc3-4662-954d-ed7fa1e07a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/AmazonStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/GoogleStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/TechproStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day30_featureFile/ilkFeatureFile.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US003_BackgroundKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US004_ParametreKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US_002_Runner.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US002_ScenarioOutlineKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US003_ScenarioOutlinePropertiesKullanimi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US_001_PropertiesKullanimi.feature" afterDir="false" />
+    <list default="true" id="808b28cb-fdc3-4662-954d-ed7fa1e07a46" name="Changes" comment="02082023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/DataTablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/DataTablesStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +54,7 @@
       <recent name="techproed.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US003_ScenarioOutlinePropertiesKullanimi">
+  <component name="RunManager" selected="Cucumber Java.Feature: US004_ScenarioOutlineClassWork">
     <configuration name="Feature: US001_Techproed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" />
@@ -154,15 +131,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC03 Arama Kutusunda Bolum Aratma (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US004_ScenarioOutlineClassWork" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day31_RunnerKullanimi/US001_techproed.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US004_ScenarioOutlineClassWork.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
-      <option name="NAME_FILTER" value="^TC03 Arama Kutusunda Bolum Aratma$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03 Arama Kutusunda Bolum Aratma$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC03 Arama Kutusunda Bolum Aratma" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US004_ScenarioOutlineClassWork" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: US004_ScenarioOutlineClassWork" />
         <item itemvalue="Cucumber Java.Feature: US003_ScenarioOutlinePropertiesKullanimi" />
         <item itemvalue="Cucumber Java.Feature: US002_ScenarioOutlineKullanimi" />
         <item itemvalue="Cucumber Java.Feature: US001_Techproed" />
         <item itemvalue="Cucumber Java.Feature: US001_techproed" />
-        <item itemvalue="Cucumber Java.Scenario: TC03 Arama Kutusunda Bolum Aratma (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +169,14 @@
       <option name="presentableId" value="Default" />
       <updated>1690833471813</updated>
     </task>
+    <task id="LOCAL-00001" summary="02082023">
+      <created>1691005588082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691005588082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +189,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="02082023" />
+    <option name="LAST_COMMIT_MESSAGE" value="02082023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
