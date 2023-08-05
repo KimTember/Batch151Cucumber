@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808b28cb-fdc3-4662-954d-ed7fa1e07a46" name="Changes" comment="03082023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/BlueRentalStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US001_DataTableTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US002_DataTableTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US003_DataTableTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/FailedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day34_Hooks/US_001_HooksTesr.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day34_Hooks/US_002_ExcelTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day35_rerun_paralelTesting/US_001_RerunTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day35_rerun_paralelTesting/US_002_ParallelTesting.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/mysmoketestdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/GoogleStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/GoogleStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day31_RunnerClassKullanimi/US001_Techproed.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/GooglePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/runners/Runner1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/BlueRentalStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/stepDefinition/BlueRentalStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US_001_PropertiesKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US_001_PropertiesKullanimi.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -35,7 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TLs0ACBtKpcVuUN2XxGrfu3bI7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -53,6 +62,8 @@
       <recent name="C:\Users\HP\Desktop\Batch151Cucumber" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Batch151Cucumber\src\test\resources\features\day35_rerun_paralelTesting" />
+      <recent name="C:\Users\HP\Desktop\Batch151Cucumber\src\test\resources" />
       <recent name="C:\Users\HP\Desktop\Batch151Cucumber\src\test\resources\features\day30_featureFile" />
       <recent name="C:\Users\HP\Desktop\Batch151Cucumber\src\test\java\techproed\utilities" />
     </key>
@@ -60,15 +71,15 @@
       <recent name="techproed.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: US003_DataTableTest">
-    <configuration name="Feature: US001_DataTableTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner1">
+    <configuration name="Feature: US_002_ExcelTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US001_DataTableTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day34_Hooks/US_002_ExcelTest.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US001_DataTableTest" />
+      <option name="SUGGESTED_NAME" value="Feature: US_002_ExcelTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -80,53 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US002_DataTableTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Pozitif login testi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US002_DataTableTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day34_Hooks/US_002_ExcelTest.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US002_DataTableTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: US003_DataTableTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day33_DataTables/US003_DataTableTest.feature" />
-      <option name="GLUE" value="techproed.stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Batch151Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US003_DataTableTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC01 Arama Kutusunda Volvo Aratilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US002_ScenarioOutlineKullanimi.feature" />
-      <option name="GLUE" value="techproed.stepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Batch151Cucumber" />
-      <option name="NAME_FILTER" value="^TC01 Arama Kutusunda Volvo Aratilir$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Arama Kutusunda Volvo Aratilir$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01 Arama Kutusunda Volvo Aratilir" />
+      <option name="NAME_FILTER" value="^Pozitif login testi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Pozitif login testi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Pozitif login testi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +113,7 @@
     </configuration>
     <configuration name="Scenario: TC02 Arama Kutusunda Ford Aratilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day32_Properties_ScenarioOutlineKullanimi/US_001_PropertiesKullanimi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/day35_rerun_paralelTesting/US_001_RerunTest.feature" />
       <option name="GLUE" value="techproed.stepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Batch151Cucumber" />
@@ -158,13 +131,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Batch151Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.runners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.runners.FailedRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Batch151Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.runners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.runners.Runner1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: US003_DataTableTest" />
-        <item itemvalue="Cucumber Java.Feature: US002_DataTableTest" />
-        <item itemvalue="Cucumber Java.Feature: US001_DataTableTest" />
-        <item itemvalue="Cucumber Java.Scenario: TC01 Arama Kutusunda Volvo Aratilir" />
+        <item itemvalue="JUnit.Runner1" />
         <item itemvalue="Cucumber Java.Scenario: TC02 Arama Kutusunda Ford Aratilir" />
+        <item itemvalue="JUnit.FailedRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Pozitif login testi" />
+        <item itemvalue="Cucumber Java.Feature: US_002_ExcelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691084343329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="03082023">
+      <created>1691094437859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691094437859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

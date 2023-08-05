@@ -7,8 +7,8 @@ import techproed.utilities.Driver;
 
 public class GooglePage {
     public GooglePage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-    }
+        PageFactory.initElements(Driver.getDriver(), this);}
+
         @FindBy(xpath = "(//*[@class='QS5gu sy4vM'])[2]")
         public WebElement cerez;
         @FindBy(xpath = "//*[@class='gLFyf']")

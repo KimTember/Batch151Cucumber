@@ -7,11 +7,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)//-->Scenario çalıştırıcı notasyonu.Cucumber ile junit entegrasonunu sağlar
 @CucumberOptions(plugin={"pretty",
         "html:target/default-cucumber-reports.html",
-        "json:target/json-reports/cucumber.json",
-        "junit:target/xml-report/cucumber.xml"},
+        "json:target/json-reports/cucumber2.json",
+        "junit:target/xml-report/cucumber.xml",
+        "rerun:TestOutput/failed_scenario.txt"},//rerun ile berlittigimiz dosyada fail olan senaryolar tutulur.
         features = "src/test/resources/features",
         glue = {"techproed/stepDefinition"},
-        tags = "@g",
+        tags = "@negatif",
         dryRun = false,//-->true seçersek scenarioları kontrol eder browser'ı çalıştırmaz
         monochrome = true//-->true kullanırsak konsoldaki çıktılar tek renk olur.
 
@@ -34,5 +35,6 @@ pretty-->konsolda calistirdigimiz scenario ile ilgili ayrintili bilgi verir.
  */
 
 
-public class Runner {
+public class Runner2 {
+
 }
